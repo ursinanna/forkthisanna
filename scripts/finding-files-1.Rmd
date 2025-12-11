@@ -16,7 +16,7 @@ shelf(knitr, here, quiet = TRUE)
 # Load data by specifying the path to the file
 Can you run the following code chunk? On its own? When knitting the whole Rmd file?
 ```{r direct-path}
-dat <- read.csv("data/languages.csv")
+dat <- read.csv("data/languages.csv") 
 kable(head(dat), caption = "Specifying path directly")
 ```
 
